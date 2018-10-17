@@ -1,0 +1,20 @@
+.control-components-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.prevTrack,
+.nextTrack,
+.play {
+    cursor: pointer;
+    color: purple;
+    transition: color 0.2s;
+}
+
+.prevTrack:hover,
+.nextTrack:hover,
+.play:hover {
+    color: palevioletred;
+}
